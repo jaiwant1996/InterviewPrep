@@ -91,7 +91,7 @@ int main(){
     vector<long> nums;
     for(int i=0; i<n; i++){
         int num=0;
-        cout << i << " number: ";
+        cout << i+1 << " number: ";
         cin >> num;
         nums.push_back(num);
     }
