@@ -5,3 +5,5 @@ The 3 inputs are, Target sum, number of change, value of each change.
 It will output all the ways to make the change.
 
 Try running the 'chmod a+x script.sh' command to make it executable then run it using './script.sh'
+Example:
+![screenshot of the script running](https://url/to/img.png)
