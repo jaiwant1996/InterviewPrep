@@ -1,0 +1,25 @@
+In file included from /usr/include/c++/5/backward/hash_map:60:0,
+                 from poop.cpp:5:
+/usr/include/c++/5/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+poop.cpp:15:5: error: ‘hash_map’ does not name a type
+     hash_map<vector<int>, long> mapOfNums;
+     ^
+poop.cpp:86:1: error: expected ‘}’ at end of input
+ }
+ ^
+poop.cpp: In member function ‘long int Ways::helper(std::vector<long int>, long int, std::vector<long int>, long int)’:
+poop.cpp:47:18: error: ‘mapOfNums’ is not a member of ‘Ways’
+             if(!(Ways::mapOfNums.find(currNums)){
+                  ^
+poop.cpp:47:49: error: expected ‘)’ before ‘{’ token
+             if(!(Ways::mapOfNums.find(currNums)){
+                                                 ^
+poop.cpp:61:9: error: expected primary-expression before ‘}’ token
+         }
+         ^
+poop.cpp: At global scope:
+poop.cpp:62:5: error: expected unqualified-id at end of input
+     }
+     ^
