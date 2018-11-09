@@ -96,7 +96,7 @@ int main(){
         nums.push_back(num);
     }
     sort(nums.begin(), nums.end());
-    cout << "Total Number of ways: " << getWays(target,nums);
+    cout << "Total Number of ways: " << getWays(target,nums) << endl;
     //cout << " WAYSSSSSSSSSSSSSSSS::::::::" << getWays(4, {1,2,3});
     return 1;
 }

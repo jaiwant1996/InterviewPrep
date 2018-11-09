@@ -41,12 +41,12 @@ int helper(vector<int> allNums, int index, int target, int power){
             return -2;
         }
         if(sumVec(allNums, power) == target){
-            cout << "**************)FOUND(**********";
+            cout << "**)FOUND(**\t";
             for(auto a: allNums){
                 cout << a << "\t";
             }
 	    flag = true;
-            cout << "*************************";
+            cout << "\n";
             return -1;
         }
         helper(allNums, index+1, target, power);
